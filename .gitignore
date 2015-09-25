@@ -1,0 +1,29 @@
+# Ignore these folders first #
+##############################
+assets
+components
+node_modules
+min
+
+#These files are not required#
+##############################
+sample.html
+template.html
+ebook.html
+README.txt
+
+#Also ignore these files, just in case they are present anywhere#
+################################################################
+.DS_Store
+*.log
+node_modules
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
